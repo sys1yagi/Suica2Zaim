@@ -10,14 +10,14 @@
     <name>Suica2Zaim - Parent</name>
 
     <modules>
-        <module>Suica2Zaim</module>
-        <module>Suica2Zaim-it</module>
+        <module>suica2zaim</module>
+        <module>suica2zaim-it</module>
     </modules>
 
     <properties>
-        <platform.version>2.3.3</platform.version>
+        <platform.version>4.1.1.4</platform.version>
+        <zipaligned-classifier> </zipaligned-classifier>
     </properties>
-
     <dependencyManagement>
         <dependencies>
             <dependency>
@@ -63,7 +63,7 @@
                         <resourceDirectory>${project.basedir}/res</resourceDirectory>
                         <nativeLibrariesDirectory>${project.basedir}/src/main/native</nativeLibrariesDirectory>
                         <sdk>
-                            <platform>10</platform>
+                            <platform>17</platform>
                         </sdk>
                                                 <undeployBeforeDeploy>true</undeployBeforeDeploy>
                     </configuration>

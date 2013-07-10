@@ -10,7 +10,7 @@
 	</parent>
 
 	<groupId>jp.mydns.sys1yagi</groupId>
-	<artifactId>Suica2Zaim</artifactId>
+	<artifactId>suica2zaim</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>apk</packaging>
 	<name>Suica2Zaim - Application</name>

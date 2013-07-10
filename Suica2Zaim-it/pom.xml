@@ -9,7 +9,7 @@
   </parent>
 
   <groupId>jp.mydns.sys1yagi</groupId>
-  <artifactId>Suica2Zaim-it</artifactId>
+  <artifactId>suica2zaim-it</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>apk</packaging>
   <name>Suica2Zaim-it - Integration tests</name>
@@ -32,14 +32,14 @@
     </dependency>
     <dependency>
       <groupId>jp.mydns.sys1yagi</groupId>
-      <artifactId>Suica2Zaim</artifactId>
+      <artifactId>suica2zaim</artifactId>
       <type>apk</type>
       <version>0.0.1-SNAPSHOT</version>
       <classifier>${zipaligned-classifier}</classifier> <!--  classifier set according to the ran profile -->
     </dependency>
     <dependency>
       <groupId>jp.mydns.sys1yagi</groupId>
-      <artifactId>Suica2Zaim</artifactId>
+      <artifactId>suica2zaim</artifactId>
       <type>jar</type>
       <version>0.0.1-SNAPSHOT</version>
     </dependency>
