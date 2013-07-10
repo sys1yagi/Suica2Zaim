@@ -29,6 +29,11 @@
 			<artifactId>support-v4</artifactId>
 			<version>r13</version>
 		</dependency>
+		<dependency>
+			<groupId>net.vvakame</groupId>
+			<artifactId>zaim4j</artifactId>
+			<version>1.0.0</version>
+		</dependency>
 	</dependencies>
 
 	<build>
